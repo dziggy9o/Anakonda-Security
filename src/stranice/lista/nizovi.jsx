@@ -1,0 +1,38 @@
+export const RefLista = {
+fizteh: [
+    {id: 1, Naziv: 'Gradska uprava Sombor (2016,2017,2018, 2019)'},
+    {id: 2, Naziv: 'JKP „Vodokanal“ Sombor (2016,2017,2018, 2019)'},
+    {id: 3, Naziv: 'JKP „Energana“ Sombor (2016,2017,2018, 2019)'},
+    {id: 4, Naziv: 'JKP „Čistoća“ Sombor (2016,2017,2018, 2019)'},
+    {id: 5, Naziv: 'Opšta bolnica „dr. Radivoj Simonović“ Sombor (2016,2017,2018, 2019)'},
+    {id: 6, Naziv: 'Gradilište objekta „Lidl“ u Apatinu (2019)'},
+    {id: 7, Naziv: 'SBR „Junaković“ Apatin (2016,2017,2018, 2019)'},
+    {id: 8, Naziv: 'Gradilište “Crpna stanica” S.Miletić (2018,2019)'},
+    {id: 9, Naziv: '„Apple world“ doo u s.Riđica (Sombor) -2018,2019'},
+    {id: 10, Naziv: 'MPI „Pobeda“ DOO Aranđelovac, mlin u Sivcu (Kula)-2018,2019'},
+    {id: 11, Naziv: '„LBB-FRIGO DOO u stečaju“ Apatin (2018,2019)'},
+    {id: 12, Naziv: 'Osnovne škole u Somboru:', Sadrzaj: [
+        {Naziv: '„I.L.Ribar“'},
+        {Naziv: '„Avram Mrazović“'},
+        {Naziv: '„Bratstvo jedinstvo“'},
+        {Naziv: '„Nikola Vukičević“'},
+    ]},
+    {id: 13, Naziv: 'SOŠO Vuk Karadžić Sombor'},
+    {id: 14, Naziv: '„Bane MPI Sombor“ (2016-2019)'},
+    {id: 15, Naziv: 'RTI d.o.o. objekat u Somboru (2017-2018)'},
+    {id: 16, Naziv: '“Sombormlin” Sombor'},
+    {id: 17, Naziv: '“Film danas” – obezbeđenje tokom snimanja filma “Dara iz Jasenovca.'},
+
+    ],
+obzsp: [
+    {id: 1, Naziv: '„Somborsko leto“u Somboru'},
+    {id: 2, Naziv: '„Somborski kotlić“u Somboru'},
+    {id: 3, Naziv: '„Zimske čarolije“ u Somboru'},
+    {id: 4, Naziv: '„Dani crvenokose boginje“ u Odžacima'},
+    {id: 5, Naziv: 'Međunarodne biciklističke trke u Somboru i Odžacima'},
+    {id: 6, Naziv: 'Somborski polumaraton i „Dunavski polumaraton“ (Apatin)'},
+    {id: 7, Naziv: 'Fudbalske utakmice FK Radnički Sombor'},
+],
+montaza: 'To je naša sporedna delatnost, iako posedujemo odgovarajuću Licencu i osposobljen kadar. Montaža urađena u 20-tak objekata od kojih izdvajamo Opštu bolnicu Sombor i SBR „Junaković“ Apatin.',
+polj: 'u opštinama: Sombor (35 ljudi), Apatin (5) i Odžaci(17).',
+}

@@ -1,0 +1,209 @@
+@import 'varijable.scss';
+
+.AnakondaSecurity-tema {
+    height: 100%;
+   
+    .LeviSidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 300;
+        width: 16%;
+        padding: 20px;
+        border-right: 1px dashed $prva;
+        height: 100%;
+        max-height: 100%;
+        box-shadow: 2px 0px 20px rgba(0, 0, 0, 0.3);
+        display: inline-block;
+        vertical-align: middle;
+        .Logo {
+            background-image: url('/img/logo/asb.svg');
+            width: 90px;
+            height: 100px;
+            display: block;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            
+        }
+        .Navigacija {
+            display: block;
+            margin: auto;
+            width: 100%;
+            a {
+                font-size: 20px;
+                padding: 3px;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                display: block;
+                text-decoration: none;
+                color: $treca;
+                width: 90%;
+                border-radius: 100px;
+                &:nth-of-type(1) {
+                    &:before {
+                        background-image: url('/img/ikone/pocetnas.svg'); 
+                    }
+                }
+                &:nth-of-type(2) {
+                    &:before {
+                        background-image: url('/img/ikone/onamas.svg'); 
+                    }
+                }
+                &:nth-of-type(3) {
+                    &:before {
+                        background-image: url('/img/ikone/usluges.svg'); 
+                    }
+                }
+                &:nth-of-type(4) {
+                    &:before {
+                        background-image: url('/img/ikone/refs.svg'); 
+                    }
+                }
+                /*&:nth-of-type(5) {
+                    &:before {
+                        background-image: url('/img/ikone/zaps.svg'); 
+                    }
+                }*/
+                &:nth-of-type(5) {
+                    &:before {
+                        background-image: url('/img/ikone/kontakts.svg'); 
+                    }
+                }
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    vertical-align: sub;
+                    margin-right: 4px;
+                    
+                }
+                &:hover {
+                    font-weight: bold;
+                    color: $druga;
+                    background-color: $prva;
+                    font-size: 20px;
+                    transition-property: background-color,font-weight,color,background-image;
+                    transition-duration: .3s;
+                    transition-timing-function: ease-in;
+                    &:before {
+                        width: 25px;
+                        height: 25px;
+                    }
+                    &:nth-of-type(1) {
+                        &:before {
+                            background-image: url('/img/ikone/pocetnaw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        &:before {
+                            background-image: url('/img/ikone/onamaw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        &:before {
+                            background-image: url('/img/ikone/uslugew.svg'); 
+                        }
+                    }
+                    &:nth-of-type(4) {
+                        &:before {
+                            background-image: url('/img/ikone/refw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(6) {
+                        &:before {
+                            background-image: url('/img/ikone/zapw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(5) {
+                        &:before {
+                            background-image: url('/img/ikone/kontaktw.svg'); 
+                        }
+                    }
+                }
+            }
+            a.odabrano {
+                color: $prva;
+                font-weight: bold;
+                font-size: 20px;
+                transition-property: background-color,font-weight,color,background-image;
+                transition-duration: .3s;
+                transition-timing-function: ease-in;
+                
+                &:hover {
+                    font-weight: bold;
+                    color: $druga;
+                    background-color: $prva;
+                    
+                    &:nth-of-type(1) {
+                        &:before {
+                            background-image: url('/img/ikone/pocetnaw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(2) {
+                        &:before {
+                            background-image: url('/img/ikone/onamaw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(3) {
+                        &:before {
+                            background-image: url('/img/ikone/uslugew.svg'); 
+                        }
+                    }
+                    &:nth-of-type(4) {
+                        &:before {
+                            background-image: url('/img/ikone/refw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(6) {
+                        &:before {
+                            background-image: url('/img/ikone/zapw.svg'); 
+                        }
+                    }
+                    &:nth-of-type(5) {
+                        &:before {
+                            background-image: url('/img/ikone/kontaktw.svg'); 
+                        }
+                    }
+                }
+                &:nth-of-type(1) {
+                    &:before {
+                        background-image: url('/img/ikone/pocetnab.svg'); 
+                    }
+                }
+                &:nth-of-type(2) {
+                    &:before {
+                        background-image: url('/img/ikone/onamab.svg'); 
+                    }
+                }
+                &:nth-of-type(3) {
+                    &:before {
+                        background-image: url('/img/ikone/uslugeb.svg'); 
+                    }
+                }
+                &:nth-of-type(4) {
+                    &:before {
+                        background-image: url('/img/ikone/refb.svg'); 
+                    }
+                }
+                &:nth-of-type(6) {
+                    &:before {
+                        background-image: url('/img/ikone/zapb.svg'); 
+                    }
+                }
+                &:nth-of-type(5) {
+                    &:before {
+                        background-image: url('/img/ikone/kontaktb.svg'); 
+                    }
+                }
+                &:before {
+                    content: '';
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,143 @@
+@media screen and (max-width: 1024px) {
+    body {
+        margin: 0px;
+    }
+    body.ASmobNav {
+        .pocetna,.Stranica, .HeaderMob {
+            -webkit-transform: translateX(-274px);
+            transform: translateX(-274px);
+            
+        }
+        .navSadrzaj {
+            -webkit-transform: translateX(0);
+            transform: translateX(0);
+            -webkit-box-shadow: -5px 0px 5px 0px rgba(0,0,0,0.25);
+            -moz-box-shadow: -5px 0px 5px 0px rgba(0,0,0,0.25);
+            box-shadow: -5px 0px 5px 0px rgba(0,0,0,0.25);
+        }
+    }
+    .AnakondaSecurity-tema {
+        .Stranica, .pocetna {
+            padding-top: 60px;
+            -webkit-transition: -webkit-transform .5s ease;
+            transition: -webkit-transform .5s ease;
+            transition: transform .5s ease;
+            transition: transform .5s ease,-webkit-transform .5s ease;
+        }
+        .pocetna {
+            .usluge {
+                width: 100%;
+                height: 200px;
+                &:nth-child(2) {
+                    background-position: 50% 30%;
+                }
+                &:nth-child(4) {
+                    background-position: 50% 40%;
+                }
+                a.hover {
+                    .h-prikaz {
+                        .tekst {
+                            padding-top: 70px;
+                        }
+                    }
+                    .prikaz {
+                        left: 0;
+                        bottom: 0;
+                        right: auto;
+                        transform: rotate(0deg) translate(0, 0);
+                    }
+                }
+            }
+        }
+        
+        .LeviSidebar {
+            display: none;
+        }
+        section {
+            width: 100%;
+        }
+        section.navSadrzaj {
+            width: 275px;
+        }
+        nav.HeaderMob {
+            display: block;
+            height: 60px;
+            width: 100%;
+            z-index: 400;
+            position: fixed;
+            top: 0;
+            background: white;
+            border-bottom: 1px dashed black;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transition: -webkit-transform .5s ease;
+            transition: -webkit-transform .5s ease;
+            transition: transform .5s ease;
+            transition: transform .5s ease,-webkit-transform .5s ease;
+            .Logo {
+                background-image: url('/img/logo/asb.svg');
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 50px;
+                display: block;
+                margin-left: 10px;
+                margin-top: 5px;
+                
+            }
+            .navigacijaMob {
+                display: block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                button {
+                    fill: black;
+                    background: transparent;
+                    width: 60px;
+                    height: 60px;
+                    border: 0;
+                    svg {
+                        height: 30px;
+                    }
+                    &:focus {
+                        outline: 0;
+                    }
+                
+                }
+                button.odabrano {
+                    fill: white;
+                    background: black;
+                }
+            }
+            
+        }
+        nav.HeaderMob.skroll {
+            -webkit-box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.3);
+            -moz-box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.3);
+            box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.3);
+
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    section.Stranica {
+        h3.naslov {
+            position: relative!important;
+            display: block;
+            margin: auto;
+            margin-top: -40px;
+        }
+        .sadrzaj, .forma {
+            width: 90%;
+        }
+        .sadrzaj {
+            .usluge {
+                a.usluga {
+                    width: 100%;
+                    &:nth-child(even) {
+                        float: none;
+                    }
+                }
+            }
+        }
+    }
+}

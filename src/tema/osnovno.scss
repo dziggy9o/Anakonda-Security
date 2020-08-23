@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+section {
+    width: 84%;
+    min-height: 100vh;
+    height: 100%;
+    float: right;
+}
+nav.HeaderMob {
+    display: none;    
+}
+section.navSadrzaj {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(275px);
+    transform: translateX(275px);
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: transform .5s ease,-webkit-transform .5s ease;
+    display: block;
+    height: 100%;
+    right: 0;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    width: 275px;
+    z-index: 200;
+    background: white;
+    padding: .75em 1.25em;
+    .mobLinkovi {
+    a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        height: 40px;
+        margin-bottom: 5px;
+        padding-top: 5px;
+        color: black;
+        border-bottom: 2px solid rgba(0,0,0,0.15);
+        &:hover {
+            background: black;
+            color:white;
+        }
+    }
+    a.odabrano {
+        background:black;
+        color: white;
+    }}
+    svg {
+        fill: white;
+        display: block;
+        margin:auto;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+section.Nepostojeca {
+    background: rgb(70,70,70);
+    background: -moz-radial-gradient(circle, rgba(70,70,70,1) 0%, rgba(41,41,41,1) 65%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(70,70,70,1) 0%, rgba(41,41,41,1) 65%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(70,70,70,1) 0%, rgba(41,41,41,1) 65%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#464646",endColorstr="#000000",GradientType=1);
+    .sadrzaj {
+        padding-top: 100px;
+        width: 60%;
+        margin: auto;
+        font-size: 2em;
+        text-align: center;
+        color: white;
+        span {
+            text-decoration: underline;
+            font-weight: bold;
+        }
+        .znak {
+            
+           
+            p {
+                display: inline-block;
+                font-size: 8em;
+                vertical-align: middle;
+                font-weight: bold;
+
+            }
+            img {
+                display: inline-block;
+                height: 6.5em;
+                vertical-align: middle;
+            }
+        }
+    }
+}
